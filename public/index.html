@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <link href="/index.css" rel="stylesheet">
+</head>
+<body>
+    <div id="content" class="buttons disabled">
+      <button class="print-report">Print</button>
+      <button class="reload-report">Reload</button>
+      <button class="fullscreen-report">Fullscreen</button>
+    </div>
+
+    <hr/>
+
+    <div id="report-container">
+      <div class="loading"></div>
+      <div class="report-error" hidden>Error: Forbidden</div>
+    </div>
+
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script src="powerbi.js"></script>
+  <script src="index.js"></script>
+</body>
