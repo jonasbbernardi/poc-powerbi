@@ -9,7 +9,7 @@ Poc de exemplo para gerar token de acesso para embedar um workspace do PowerBI.
 
 ## Estrutura no Azure
 
-Para acesso ao Power BI, é necessário ter um grupo de usuários configurado na conta do Power BI, para isso, clique em configurações e em seguida em "Porta de Administração".
+Para acesso ao Power BI, é necessário ter um grupo de usuários configurado na conta do Power BI, para isso, clique em configurações e em seguida em "Portal de Administração".
 
 No portal de administração, na aba "Configurações de Locatário", procure por "Configurações do Desenvolvedor", nessa guia, procure por "Os principais serviços podem chamar as APIs públicas do Fabric".
 
